@@ -20,7 +20,7 @@ void menuCadastrarAgendamento(ListaAgendamentos *la, ListaPacientes *lp) {
     printf("Data (DD/MM/AAAA): ");
     scanf("%s", a.data);
     if (!validarData(a.data)) {
-        printf("***[ERRO]***: Data invalida ou formato incorreto.\n");
+        printf("***[ERRO]***: Data invalida ou formato incorreto. Lembre-se que a data agendada nao pode ser longinqua.\n");
         return;
     }
 
