@@ -11,7 +11,7 @@ void exibirMenu() {
     printf("4--> Listar Agendamentos por CPF\n");
     printf("5--> Listar Agendamentos por Sala\n");
     printf("6--> Cancelar Agendamento\n");
-    printf("7--> Historico Completo\n");
+    printf("7--> Historico Completo de Agendamentos\n");
     printf("0--> Sair\n\n");
     printf("Escolha uma opcao: ");
 }
