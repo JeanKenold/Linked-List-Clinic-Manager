@@ -1,2 +1,3 @@
-# Linked-List-Clinic-Manager
-Aplicação de agendamento clínico em linguagem C demonstrando proficiência em alocação dinâmica de memória, manipulação de ponteiros e estruturas de dados complexas (Header Lists).
+## Sistema de Agendamento de Consultas em Clínica Universitária
+#### Desenvolver uma aplicação modular em linguagem C que utilize estruturas de dados lineares dinâmicas de forma funcional e segura. O projeto foca no armazenamento, manipulação e exibição de dados para um Sistema de Agendamento de Consultas em Clínica Universitária, aplicando na prática uma Lista Simplesmente Encadeada para o registo de pacientes e uma Lista com Cabeçalho (Nó Sentinela) para a gestão e o histórico de agendamentos. O sistema integra a teoria de alocação de memória com a prática de validação de dependências num contexto real.
+---
