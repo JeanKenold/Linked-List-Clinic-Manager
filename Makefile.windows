@@ -1,0 +1,14 @@
+TARGET = sistema_clinica.exe
+CC = gcc
+CFLAGS = -Wall
+SRC = main.c lista.c paciente.c agendamento.c
+OBJ = $(SRC:.c=.o)
+
+$(TARGET): $(OBJ)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJ)
+
+clean:
+	del /f $(OBJ) $(TARGET)
+
+run: $(TARGET)
+	$(TARGET)
