@@ -16,7 +16,7 @@ void exibirMenu() {
     printf("Escolha uma opcao: ");
 }
 
-int main() {
+int main() { // por PABLO
     // Inicializacao das estruturas de dados
     ListaPacientes *lp = criarListaPacientes();
     ListaAgendamentos *la = criarListaAgendamentos();

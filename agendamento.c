@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void menuCadastrarAgendamento(ListaAgendamentos *la, ListaPacientes *lp) {
+void menuCadastrarAgendamento(ListaAgendamentos *la, ListaPacientes *lp) { // funcao por JEAN
     Agendamento a;
     printf("\n--- Novo Agendamento ---\n");
     printf("CPF do Paciente: ");

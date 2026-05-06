@@ -2,7 +2,7 @@
 #include "lista.h"
 
 // GESTAO DE PACIENTES com lista simples
-ListaPacientes* criarListaPacientes() {
+ListaPacientes* criarListaPacientes() { // com auxilio PABLO
     ListaPacientes *lista = (ListaPacientes*)malloc(sizeof(ListaPacientes));
     if (lista == NULL) { printf("Erro de memoria\n"); exit(1); }
 
@@ -40,7 +40,7 @@ void inserirPaciente(ListaPacientes *l, Paciente p) {
 }
 
 // GESTÃO DE AGENDAMENTOS (lista com cabeçalho)
-ListaAgendamentos* criarListaAgendamentos() {
+ListaAgendamentos* criarListaAgendamentos() { // funcao por THALES
     ListaAgendamentos *lista = (ListaAgendamentos*)malloc(sizeof(ListaAgendamentos));
     if (lista == NULL) { printf("Erro de memoria\n"); exit(1); }
 
