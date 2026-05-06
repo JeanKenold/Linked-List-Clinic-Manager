@@ -1,6 +1,6 @@
 # Sistema de Agendamento - Clínica Universitária
 
-Trabalho prático desenvolvido para a disciplina de Estrutura de Dados Lineares. O sistema gere o cadastro de pacientes e o agendamento de consultas numa clínica universitária, utilizando diferentes implementações de listas encadeadas. Por Jean Kenold, Pablo Ishiai e Thales Cercal.
+Trabalho prático desenvolvido para a disciplina de Estrutura de Dados Lineares. O sistema gere o cadastro de pacientes e o agendamento de consultas numa clínica universitária, utilizando diferentes implementações de listas encadeadas. Por Jean Dorce, Pablo Ishiai e Thales Cercal.
 
 ## Estruturas de Dados Utilizadas
 
